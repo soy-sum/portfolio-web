@@ -9,8 +9,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #fff;
+    color: #51829B; /* Other Font Color */
+    background-color: #9BB0C1; /* Background Color */
+    text-align: center; /* Center Align All Text */
 }
 
 header {
@@ -44,9 +45,15 @@ section {
     margin: 10px;
 }
 
-h1, h2 {
+h1 {
     margin-bottom: 10px;
+    color: #F6995C; /* Title Font Color */
     font-family: 'Montserrat', sans-serif; /* Heading Font */
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #F6995C; /* Title Font Color */
 }
 
 .project-card {
